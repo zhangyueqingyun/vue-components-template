@@ -1,0 +1,36 @@
+{
+  "name": "@zhangyueqingyun_/vue-components",
+  "version": "1.2.0-alpha.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "pub:dev": "npm publish --access public --tag=alpha",
+    "pub:pre": "npm publish --access public --tag=beta",
+    "pub": "npm publish --access public --tag=latest",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "module": "lib/vue-components.esm.js",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "vite": "^3.1.0",
+    "vitepress": "^0.22",
+    "vue": "^3.3.4",
+    "vue-router": "^4.1.6"
+  },
+  "dependencies": {
+    "ant-design-vue": "3.3.0-beta.4",
+    "d3": "^7.8.2",
+    "html2canvas": "^1.4.1"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.39"
+  }
+}
